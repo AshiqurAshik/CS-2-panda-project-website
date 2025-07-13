@@ -6,6 +6,11 @@
 
 body{
   font-family: 'Poppins', sans-serif;
+  color: #1F1F1F;
+}
+
+button{
+  cursor: pointer;
 }
 
 /* Shared class */
@@ -186,3 +191,74 @@ nav{
 .shoe{
   background: linear-gradient(to right, #4289FF, #3F07F8);
 }
+
+/* shoe section */
+
+.shoe-page{
+  background-color: #F4F4F4;
+}
+
+.shoe-sec{
+  padding: 50px 115px;
+
+}
+
+.header-shoe{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-shoe h1{
+  font-size: 36px;
+  font-weight: 600;
+  color: #1F1F1F;
+  margin-bottom: 24px;
+}
+
+.header-shoe p{
+  font-size: 20px;
+  font-weight: 500;
+  color: #FF9D00;
+}
+
+.all-shoe{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.shoe-box{
+  padding: 24px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.shoe-box img{
+  width: 340px;
+  height: 200px;
+}
+
+.shoe-box h2{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.shoe-box p{
+  color: #4E4E4E;
+}
+
+.shoe-box h1{
+  font-size: 24px;
+  color: black;
+  font-weight: 500;
+}
+
