@@ -92,7 +92,7 @@ nav{
 }
 
 .list-items a:hover{
-  color: orangered;
+  color: #FF589B;
 }
 
 /* Banner section */
@@ -192,9 +192,9 @@ nav{
   background: linear-gradient(to right, #4289FF, #3F07F8);
 }
 
-/* shoe section */
+/* shoe section & Bag page*/
 
-.shoe-page{
+.shoe-page, .bag-page{
   background-color: #F4F4F4;
 }
 
@@ -244,7 +244,7 @@ nav{
 
 .shoe-box img{
   width: 340px;
-  height: 200px;
+
 }
 
 .shoe-box h2{
@@ -262,3 +262,53 @@ nav{
   font-weight: 500;
 }
 
+/* Contact section */
+
+.contact-sec{
+  background-color: #FFF2F1;
+  margin: 70px 115px;
+  padding: 150px 165px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-sec h1{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.contact-sec p{
+  color: #707070;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.input-field{
+  display: flex;
+}
+
+.input-field input{
+  width: 520px;
+  height: 70px;
+  background-color: white;
+  font-size: 24px;
+    border: none;
+     outline: 0;
+     border-top-left-radius: 5px;
+     border-end-start-radius: 5px;
+     padding:0 20px;
+}
+
+.input-field button{
+     background: linear-gradient(to right, #FF589B, #FF136F);
+     padding: 20px 50px;
+     font-size: 24px;
+     color: white;
+     border: none;
+     outline: 0;
+     border-top-right-radius: 5px;
+     border-bottom-right-radius: 5px;
+}
